@@ -3,7 +3,7 @@ bigger_area_calculator
 hello_world
 CMakeCache.txt
 CMakeFiles/
-cmake+install.cmake
+cmake_install.cmake
 Makefile
 
 c-echo

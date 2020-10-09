@@ -1,3 +1,9 @@
 area_calculator
 bigger_area_calculator
 hello_world
+CMakeCache.txt
+CMakeFiles/
+cmake+install.cmake
+Makefile
+
+c-echo

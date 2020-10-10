@@ -21,6 +21,11 @@ TEST(EchoTest, OneTwoThree){
 	EXPECT_EQ ("1 2 3", echo(4,test_val));
 }
 
+TEST(EchoTest, Single){
+	char* test_val[2]; test_val[0] = "./c-echo"; test_val[1] = "Single";
+	EXPECT_EQ("Single", echo(2,test_val));
+}
+
 int main(int argc, char **argv){
 	::testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
